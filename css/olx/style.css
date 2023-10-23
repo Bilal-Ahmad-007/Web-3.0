@@ -1,0 +1,323 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+header {
+    display: inline-block;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+
+
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 37px;
+    height: 26px;
+    cursor: pointer;
+    padding: 2px 23px;
+
+}
+
+.properties {
+    display: inline-block;
+    margin: 9px 19px;
+}
+
+.properties button:hover {
+    color: blue;
+}
+
+.properties button {
+    margin: 5px 1px;
+    width: 106px;
+    height: 21px;
+    cursor: pointer;
+}
+
+#abc {
+    background-image: url("https://png.pngtree.com/png-vector/20190215/ourmid/pngtree-vector-car-icon-png-image_515825.jpg");
+    background-size: 26px;
+    background-repeat: no-repeat;
+    padding: 5px 34px;
+    border: none;
+
+}
+
+#bca {
+    background-image: url("https://w7.pngwing.com/pngs/229/624/png-transparent-logo-real-estate-house-building-property-real-estate-logos-angle-building-logo-thumbnail.png");
+    background-size: 47px;
+    padding: 17px 39px;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.input .logo {
+    display: inline-block;
+
+}
+
+.input .logo img {
+    margin: -17px 15px;
+    padding: 2px 17px;
+    width: 64px;
+    height: 41px;
+}
+
+form {
+    display: inline-block;
+}
+
+form select {
+    background-position: 11px center;
+    background-image:
+        url("https://www.nicepng.com/png/detail/350-3506490_search-icon-small-search-icon-small-png.png");
+    background-size: 17px;
+    background-repeat: no-repeat;
+    margin: 16px 3px;
+    padding: 0px 33px;
+    width: 322px;
+    height: 44px;
+    font-size: large;
+    border: 2px solid rgb(0, 47, 52);
+    cursor: pointer;
+}
+ #simg{
+    position: absolute;
+    background: local;
+    background-color:rgb(0, 47, 52); ;
+    width: 49px;
+    height: 42px;
+    margin-left: 939px;
+    margin-top: -61px;
+    background-image:url("img/search.png");
+    
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+#input {
+
+    display: inline-block;
+    margin: -1px 1px;
+    padding: 5px 30px;
+
+    width: 322px;
+    height: 27px;
+    font-size: large;
+
+}
+
+ #input #s {
+
+    margin: 16px 3px;
+    padding: 0px 17px;
+    width: 490px;
+    height: 46px;
+    font-size: medium;
+    border: 2px solid rgb(0, 47, 52);
+
+}
+#input:active{
+    border-color:rgb(0, 195, 255)  ;
+}
+
+button {
+    display: inline-block;
+
+}
+
+button img {
+
+    position: absolute;
+    width: 37px;
+    height: 27px;
+    top: 123px;
+    right: 550px;
+    cursor: pointer;
+}
+
+ #leftbtn {
+    display: inline-block;
+    margin: 14px 0px;
+    padding: 16px 145px;
+
+}
+
+#cba {
+    text-decoration: underline rgb(0, 47, 52);
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(0, 47, 52);
+    font-family: Roboto, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 9px;
+
+}
+
+#cba:hover {
+    text-decoration: none;
+}
+
+#cab {
+    border-bottom: 4px solid blue;
+    border-top: 4px solid rgb(0, 238, 255);
+    border-left: 4px solid rgb(236, 234, 95);
+    border-right: 4px solid rgb(0, 4, 255);
+    font-size: 20px;
+    margin: 8px 7px;
+    padding: 9px 33px;
+    border-radius: 44px;
+    cursor: pointer;
+    background-image: url("https://png.pngtree.com/png-vector/20190214/ourmid/pngtree-vector-plus-icon-png-image_515260.jpg");
+    background-position: 8px center;
+     background-size: 20px;
+    background-repeat: no-repeat;
+
+    margin: 9px;
+}
+
+nav {
+    display: block;
+   
+   padding-top:11% ;
+}
+
+nav li {
+    display: inline-block;
+    margin: 6px 6px;
+    padding: 8px 8px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(0, 47, 52);
+
+}
+
+nav li a:hover {
+    color: blue;
+}
+
+#abcd {
+    cursor: pointer;
+    width: auto;
+    display: block;
+    margin-left: 29px;
+}
+
+#h {
+    padding-left: 29px;
+    padding-top: 29px;
+}
+
+.cards {
+    cursor: pointer;
+    margin-top: 23px;
+    margin-right: 15px;
+    float: right;
+    width: 23%;
+    border: 1px solid rgba(224, 211, 211, 0.123);
+    background-color: rgba(250, 203, 203, 0.877); 
+    border-radius: 15px;
+
+
+    margin-left: 8px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.title {
+    padding-top: 15px;
+    padding-left: 9px;
+}
+
+.disc {
+    padding-top: 25px;
+    padding-left: 9px;
+    cursor: pointer;
+
+}
+
+#load {
+    cursor: pointer;
+    width: 143px;
+    height: 44px;
+    padding: 4px 9px;
+    margin: 14px 44%;
+    border-radius: 12px;
+    font-size: 18px;
+}
+#load:hover{
+    border:3px solid ;
+}
+footer {
+
+    color: white;
+    background-color: rgb(0, 47, 52);
+    text-align: end;
+    padding: 14px 14px;
+    font-size: 14px;
+}
+
+.footer {
+    display: inline-block;
+
+    margin-top: 23px;
+    margin-right: 32px;
+    width: 15%;
+    margin-bottom: 12px;
+
+    margin-left: 8px;
+
+}
+
+.head {
+    cursor: text;
+}
+
+.para {
+    padding-top: 12px;
+   
+}
+
+.para p {
+    cursor: pointer;
+    font-size: 1rem;
+    padding-top: 2px;
+    color: rgba(0, 47, 52, .64);
+}
+
+.log img {
+    cursor: pointer;
+    justify-content: center;
+    display: inline;
+    margin-top: 58px;
+    margin-right: 12px;
+    width: 28px;
+    margin-right: 24px;
+
+}
+.head #as{
+    margin-left: 13px;
+}
+#up{
+    border: none;
+    font-size: 14px;
+    font-weight:bolder;
+    font-family: Roboto,Helvetica,sans-serif;
+}
