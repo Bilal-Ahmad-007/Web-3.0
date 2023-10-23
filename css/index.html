@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            background-color: blue;
+        }
+
+        .box {
+            position: relative;
+            background-color: gray;
+            width: 250px;
+            height: 200px;
+            animation-name: malik1;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+
+        }
+
+        @keyframes malik1 {
+            0% {
+                top: 0px;
+                left: 0px;
+
+            }
+
+            20% {
+                top: 20px;
+                left: 0px;
+
+            }
+
+            40% {
+                top: 40px;
+                left: 020px;
+            }
+
+            60% {
+                top: 060px;
+                left: 040px;
+            }
+
+            80% {
+                top: 40px;
+                left: 20px;
+            }
+
+            100% {
+                top: 20px;
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">box</div>
+    </div>
+</body>
+
+</html>

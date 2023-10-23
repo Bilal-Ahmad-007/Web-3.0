@@ -1,0 +1,23 @@
+body{
+    background: blue;
+    text-align: center;
+}
+h1 {
+    display: inline-block;
+    width: 188px;
+    height: 45px;
+    background: white;
+    border-radius: 200px;
+    margin: 32px 12px;
+}
+.btn {
+    width: 94px;
+    height: 93px;
+    border-radius: 111px;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 40px 20px;
+}
+.btn:hover{
+    background: aqua;
+}
