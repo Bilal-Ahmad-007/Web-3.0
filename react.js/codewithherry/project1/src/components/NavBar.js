@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {Link} from "react-router-dom"
 
 export default function NavBar(props) {
   return (
@@ -8,9 +9,9 @@ export default function NavBar(props) {
         className={`navbar navbar-expand-lg bg-${props.mode} navbar-${props.mode}`}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             {props.title}
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -25,17 +26,17 @@ export default function NavBar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/about">
                   {props.aboutText}
-                </a>
+                </Link>
               </li>
             </ul>
-            <div
+            {/* <div
               className={`form-check form-switch text-${
                 props.mode === "light" ? "dark" : "light"
               } m-3`}
@@ -101,7 +102,39 @@ export default function NavBar(props) {
               </button>
             </form>
              */}
-          </div>
+
+
+
+
+
+<div className={`form-check form-check-inline text-${
+                props.mode === "light" ? "dark" : "light"
+              } m-3`}>
+  <input className="form-check-input"  onClick={props.toggleMode} type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+  <label className="form-check-label" htmlFor="inlineRadio1">White</label>
+</div>
+<div className={`form-check form-check-inline text-${
+                props.mode === "light" ? "dark" : "light"
+              } m-3`}>
+  <input className="form-check-input" onClick={props.toggleMode1} type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
+  <label className="form-check-label" htmlFor="inlineRadio2">Dark</label>
+</div>
+
+<div className={`form-check form-check-inline text-${
+                props.mode === "light" ? "green" : "light"
+              } m-3`}>
+  <input className="form-check-input" onClick={props.toggleMode2}  type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" />
+  <label className="form-check-label" htmlFor="inlineRadio3">Green</label>
+</div>
+
+<div className={`form-check form-check-inline text-${
+                props.mode === "light" ? "blue" : "light"
+              } m-3`}>
+  <input className="form-check-input" onClick={props.toggleMode3}  type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+  <label className="form-check-label" htmlFor="inlineRadio1">Blue</label>
+</div>
+
+          </div> 
         </div>
       </nav>
     </div>

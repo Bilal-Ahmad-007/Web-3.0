@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <!--/////////////////////////////// navbar ////////////////////////////-->
+    <header class="bg-blue-300 text-black bod-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <span class="ml-16 text-3xl">Tailwind css</span>
+            <nav class="md:ml-auto flex flex-wrap item-cenetr text-base justify-center">
+                <a class="mr-5 hover:text-gray-300 " href="http://">Home</a>
+                <a class="mr-5 hover:text-gray-300 " href="http://">About</a>
+                <a class="mr-5 hover:text-gray-300 " href="http://">Blogs</a>
+            </nav>
+            <button
+                class="inline-flex item-cenetr bg-gray-300 py-1 px-3 hover:text-gray-500 rounded-lg text-base mt-1 font-semibold">Login</button>
+        </div>
+    </header>
+    <!--/////////////////////////////// About ////////////////////////////-->
+    <section class="text-gray-600 bod-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col item-center text-center">
+            <div
+                class="flex-grow md:w-1/2 pr-16 flex-col cd:item-start md:text-left mb-16 mt-12 item-center text-center">
+                <h1 class="text-4xl mb-4 font-medium text-gray-900">Welcome to talwind <br class="hidden"> Malik</h1>
+                <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+                    quibusdam blanditiis aspernatur praesentium quod. Placeat, neque, cum, officia magnam ratione
+                    exercitationem illo voluptatibus inventore excepturi quibusdam unde? Ex, laudantium ab.</p>
+                <div class="flex justify-center">
+                    <buttom class="inline-flex text-white bg-indigo-300 border-0 py-2 px-6 mx-4 rounded-lg text-lg">View
+                    </buttom>
+                    <buttom class="inline-flex text-white bg-indigo-300 border-0 py-2 px-6 rounded-lg text-lg">
+                        Accessories</buttom>
+                </div>
+            </div>
+            <div class="lg:max-w-lg md:w-1/2">
+                <img class="object-cover object-center rounded-lg"
+                    src="data:image/jpeg;base64,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"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ///////////////////////////////////////////cards//////////////////////////////////// -->
+
+    <h1 class="ml-40 text-4xl font-sans">Featured product</h1>
+    <div class="mx-auto container flex rounded-lg">
+        <div class="ml-28 mt-24 border w-80 rounded shadow-lg pb-22">
+            <img src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtczczLXRlZC0xMDIyMi5wbmc.png"
+                alt="">
+            <h1 class="mx-auto text-center mt-4 font-bold">HP laptop 6th gen 2018</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit non dolorum
+                culpa?</p>
+            <h1 class="mx-auto ml-4 mb-3 text-2xl mt-14 font-semibold">99000 PKR</h1>
+        </div>
+        <div class="ml-28 mt-24 border w-80 rounded shadow-lg pb-22">
+            <img src="https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_640.jpg" alt="">
+            <h1 class="mx-auto text-center mt-4 font-bold">HP laptop 6th gen 2018</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit non dolorum
+                culpa?</p>
+            <h1 class="mx-auto ml-4 mb-3 text-2xl mt-14 font-semibold">99000 PKR</h1>
+        </div>
+        <div class="ml-28 mt-24 border w-80 rounded shadow-lg pb-22">
+            <img src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wc3xlbnwwfHwwfHx8MA%3D%3D"
+                alt="">
+            <h1 class="mx-auto text-center mt-4 font-bold">HP laptop 6th gen 2018</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit non dolorum
+                culpa?</p>
+            <h1 class="mx-auto ml-4 mb-3 text-2xl mt-14 font-semibold">99000 PKR</h1>
+        </div>
+    </div>
+    <div class="mx-auto container flex rounded-lg">
+        <div class="ml-28 mt-24 border w-80 rounded shadow-lg pb-22">
+            <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500">HP
+            laptop 6th gen 2018</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit non dolorum
+                culpa?</p>
+            <h1 class="mx-auto ml-4 mb-3 text-2xl mt-14 font-semibold">99000 PKR</h1>
+        </div>
+        <div class="ml-28 mt-24 border w-80 rounded shadow-lg pb-22">
+            <img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D"
+                alt="">
+            <h1 class="mx-auto text-center mt-4 font-bold">HP laptop 6th gen 2018</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit non dolorum
+                culpa?</p>
+            <h1 class="mx-auto ml-4 mb-3 text-2xl mt-14 font-semibold">99000 PKR</h1>
+        </div>
+        <div class="ml-28 mt-24 border w-80 rounded shadow-lg pb-22">
+            <img src="https://thumbs.dreamstime.com/b/hands-computer-desk-using-laptop-rustic-wood-background-cup-tea-book-globe-glasses-53253551.jpg"
+                alt="">
+            <h1 class="mx-auto text-center mt-4 font-bold">HP laptop 6th gen 2018</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit non dolorum
+                culpa?</p>
+            <h1 class="mx-auto ml-4 mb-3 text-2xl mt-14 font-semibold">99000 PKR</h1>
+        </div>
+    </div>
+
+    <!-- ////////////////////////////////////////footers//////////////////////////////////////// -->
+
+    <footer class="text-gray-500 body-font">
+        <div class="container px-5 py-24 mx-auto flex lg:itwms-start md:flex-row cd:flex-rowrap flex-wrap flex-col">
+
+
+            <div class="w-64 mx-auto text-center md:text-left">
+                <span class="ml-0 font-bold text-xl">Talwind css</span>
+                <p class="mt-2 text-sm text-gray-400 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                    aspernatur animi officiis commodi ullam id consectetur molestias maxime iste incidunt? Optio dolor
+                    perferendis non laborum vitae ipsum maiores quae hic.</p>
+            </div>
+            <div class="flex-grow flex flex-wrap pl-20 text-left text-center ">
+                <div class="lg:w-1/4 md/w1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 text-sm text-center">Categries</h2>
+                    <nav class="list-none mb-10 ">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-900" href="http://">first link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-900" href="http://">first link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-900" href="http://">first link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-900" href="http://">first link</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+            <div class="flex-grow flex flex-wrap pl-20 text-left text-center ">
+                <div class="lg:w-1/4 md/w1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 text-sm text-center">Categries</h2>
+                    <nav class="list-none mb-10 ">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-900" href="http://">first link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-900" href="http://">first link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-900" href="http://">first link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-900" href="http://">first link</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <p class="bg-blue-400 text-center font-semibold text-black">2023 Talwind Css,Copyright All Rights Reserved</p>
+
+    </footer>
+</body>
+
+</html>
