@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
+  
 
 }
 
@@ -230,8 +231,6 @@ nav li a:hover {
     border: 1px solid rgba(224, 211, 211, 0.123);
     background-color: rgba(250, 203, 203, 0.877); 
     border-radius: 15px;
-
-
     margin-left: 8px;
 }
 
@@ -321,3 +320,4 @@ footer {
     font-weight:bolder;
     font-family: Roboto,Helvetica,sans-serif;
 }
+

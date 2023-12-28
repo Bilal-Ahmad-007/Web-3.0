@@ -27,7 +27,7 @@ function del() {
 }
 
 function dell(e) {
-  console.log(e.parentNode.remove());
+  e.parentNode.remove();
 }
 
 function editt(e){
@@ -35,5 +35,5 @@ function editt(e){
 
   var inputField = prompt("enter updated value",li);
 
-  e.parentNode.firstChild.nodeValue = inputField;
+  li= inputField;
 }

@@ -1,0 +1,609 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+
+    background-image: url(pics/banner-bg.jpg);
+    flex-direction: column;
+    border-bottom-right-radius: 300px;
+}
+
+#navbar {
+    display: flex;
+    background-image: url(pics/banner-bg.jpg);
+    padding: 14px;
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 29px;
+
+
+}
+
+#navbar h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    margin-left: 63px;
+    margin-top: 10px;
+    padding-right: 16px;
+    border-right: 2px solid rgba(250, 250, 250, 0.3);
+}
+
+
+#srh {
+    position: absolute;
+    left: 297px;
+    top: 26px;
+}
+
+#srh input {
+    height: 38px;
+    width: 220px;
+    background: rgb(136, 121, 220);
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+
+    border-radius: 28px;
+    padding: 13px;
+
+}
+
+#srh i {
+    position: absolute;
+    ;
+    color: #fff;
+    left: 187px;
+    top: 11px;
+
+}
+
+#main-nav {
+    margin-left: 264px;
+    margin-top: 19px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 30px;
+    padding: 8px 18px;
+
+}
+
+#navbar a:active {
+    padding: 9px 18px;
+    border-radius: 22px;
+    background-color: rgb(136, 121, 220);
+
+}
+
+#Home {
+
+    background-image: url(pics/banner-item-01.jpg);
+    background-image: no-repeat;
+    height: 25rem;
+    border-radius: 52px;
+    padding: 125px;
+
+    color: #fff;
+
+
+}
+
+#f1 {
+    padding: 66px 206px;
+    margin-bottom: 30px;
+}
+
+.c {
+    background-color: rgb(122, 106, 216);
+    padding: 8px 12px;
+    border-radius: 18px
+}
+
+#Home h1 {
+    margin-right: 151px;
+    margin-top: 71px;
+    font-size: 4rem;
+}
+
+#Home p {
+    margin-top: 71px;
+    margin-bottom: 71px;
+    font-size: 17px;
+}
+
+#Home a {
+    text-decoration: none;
+    color: rgb(106, 88, 211);
+    background-color: #fff;
+    padding: 9px 19px;
+    border-radius: 16px;
+
+
+}
+
+#Home button {
+    background: #fdfafa;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 0px 15px;
+    border: none;
+}
+
+#Home button i {
+
+    color: rgb(106, 88, 211);
+}
+
+.b {
+    background: rgb(149, 136, 225);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 12px 15px;
+    border: none;
+}
+
+.ss {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+#main-serv {
+    display: flex;
+    justify-content: center;
+}
+
+.serv {
+
+    display: inline-block;
+    width: 15rem;
+    margin: 26px;
+    height: 29rem;
+
+
+}
+
+.s1 {
+
+    background: url(pics/service-01.png) no-repeat center center;
+    position: relative;
+    width: 11rem;
+    height: 11rem;
+
+    border-radius: 8rem;
+    left: 101px;
+    background-color: rgb(106, 88, 211);
+    top: 100px;
+}
+
+.s2 {
+
+    background: url(pics/service-02.png) no-repeat center center;
+    position: relative;
+    width: 11rem;
+    height: 11rem;
+
+    border-radius: 8rem;
+    left: 101px;
+    background-color: rgb(106, 88, 211);
+    top: 100px;
+}
+
+.s3 {
+
+    background: url(pics/service-03.png) no-repeat center center;
+    position: relative;
+    width: 11rem;
+    height: 11rem;
+
+    border-radius: 8rem;
+    left: 101px;
+    background-color: rgb(106, 88, 211);
+    top: 100px;
+}
+
+.s {
+    background: rgb(241, 240, 254);
+    border-radius: 30px;
+    height: 18rem;
+}
+
+.s h2 {
+    padding-top: 102px;
+    padding-left: 19px;
+
+}
+
+
+.s p {
+    padding: 19px;
+    color: rgb(79, 74, 80);
+}
+
+#s1a {
+    margin-left: 12px;
+    margin-bottom: 9px;
+    padding: 9px;
+
+}
+
+#s1a a {
+
+    text-decoration: none;
+    color: rgb(106, 88, 211);
+
+}
+
+#s1a a:hover {
+    border-radius: 12px;
+    background-color: rgb(106, 88, 211);
+    border: none;
+    color: #fff;
+    padding: 7px 12px;
+
+}
+
+.ss h2 {
+    color: rgb(106, 88, 211);
+    ;
+}
+
+.ss h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 79px;
+    margin-top: 20px;
+}
+
+#c1 {
+    display: flex;
+    justify-content: center;
+}
+
+#c1a {
+
+    display: flex;
+    background-color: rgb(241, 240, 254);
+    padding: 21px 23px;
+
+    width: 50%;
+    height: 19px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#c1a a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#Card-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2 {
+    width: 25rem;
+    height: 23rem;
+    background: rgb(241, 240, 254);
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.c2 h3 {
+    padding: 24px;
+    color: rgb(106, 88, 211);
+}
+
+.c2 h2 {
+
+    font-weight: 700;
+    margin-left: 24px;
+}
+
+.c2 a {
+    position: relative;
+    text-decoration: none;
+    color: rgb(106, 88, 211);
+    background-color: #fff;
+    padding: 9px 19px;
+    left: 12px;
+    border-radius: 17px;
+}
+
+.rs {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 138px;
+    height: 32px;
+    width: 69px;
+    background: rgb(106, 88, 211);
+    border-top-right-radius: 17px;
+    padding: 29px;
+    border-bottom-left-radius: 90px;
+    color: white;
+}
+
+
+#c2a {
+    background: url(pics/course-01.jpg) no-repeat center center;
+    width: 100%;
+    height: 16rem;
+    border-radius: 16px;
+}
+
+#c2b {
+    background: url(pics/course-03.jpg) no-repeat center center;
+    width: 100%;
+    height: 16rem;
+    border-radius: 16px;
+
+}
+
+#c2c {
+    background: url(pics/course-02.jpg) no-repeat center center;
+    width: 100%;
+    height: 16rem;
+    border-radius: 16px;
+
+}
+
+#view {
+
+    background: url(pics/banner-bg.jpg) no-repeat center center;
+    width: 90%;
+    height: 17rem;
+    border-top-right-radius: 30rem;
+    border-bottom-right-radius: 30rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    margin-top: 12rem;
+}
+
+#view div {
+    margin-right: 80px;
+}
+
+#view h1 {
+    font-weight: 900;
+    margin-bottom: 15px;
+
+}
+
+.t1 {
+    background: url(pics/team-1.jpg) no-repeat center center;
+    width: 100%;
+    height: 12rem;
+}
+
+#team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t {
+    display: inline-block;
+    width: 15rem;
+    margin: 26px;
+    height: 29rem;
+}
+
+.t1 {
+    background: url(pics/member-01.jpg) no-repeat center center;
+
+    position: relative;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 8rem;
+    left: 15px;
+    top: 94px;
+}
+
+.t2 {
+    background: rgb(241, 240, 254);
+    border-radius: 30px;
+    height: 16rem;
+}
+
+#t3 {
+    margin-left: 12px;
+    margin-bottom: 9px;
+    padding: 9px;
+
+}
+
+.t2 h3 {
+    color: rgb(106, 88, 211);
+    padding-top: 120px;
+    padding-left: 70px;
+
+}
+
+.t2 h1 {
+
+    padding-top: 12px;
+    padding-left: 37px;
+
+}
+
+.t3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.t3 i {
+    margin: 15px;
+}
+
+#p {
+    background: url(pics/member-02.jpg) no-repeat center center;
+}
+
+#p1 {
+    background: url(pics/member-03.jpg) no-repeat center center;
+}
+
+#p2 {
+    background: url(pics/member-04.jpg) no-repeat center center;
+
+}
+
+#th {
+    padding-left: 60px;
+}
+
+#contact {
+    background: rgb(241, 240, 254);
+    width: 55%;
+    height: 42rem;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    padding: 30px;
+}
+
+form {
+    position: relative;
+    right: 40px;
+    background: url(pics/banner-bg.jpg) no-repeat;
+    width: 30%;
+    height: 28rem;
+    border-radius: 30px;
+    padding: 5rem;
+}
+
+form input {
+    width: 322px;
+    height: 22px;
+    margin: 18px;
+    padding: 13px;
+    border-radius: 21px;
+    border: none;
+    color: white;
+    background-color: rgb(141, 125, 222);
+}
+
+form textarea {
+
+    padding: 20px;
+    border-radius: 21px;
+    background-color: rgb(141, 125, 222);
+    border: none;
+    margin-left: 1.1rem;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    font-weight: 600px;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+form button {
+    width: 175px;
+    height: 51px;
+    margin-top: 37px;
+    margin-left: 16px;
+    padding: 15px;
+    border-radius: 33px;
+    color: rgb(141, 125, 222);
+    font-weight: 600;
+    font-size: 13px;
+    border: none;
+}
+
+#f {
+    display: flex;
+    align-items: center;
+
+    margin: 10rem 0rem;
+}
+
+#contact h3 {
+    padding: 17px;
+    color: rgb(106, 88, 211);
+    margin-left: 2.7rem;
+}
+
+#contact h1 {
+
+    margin-left: 2rem;
+    padding: 26px;
+    font-size: 3rem;
+}
+
+#contact p {
+    margin-left: 2rem;
+    padding: 26px;
+
+}
+
+#h {
+    background: rgb(106, 88, 211);
+    width: 99px;
+    height: 103px;
+    margin-left: 3rem;
+    border-bottom-right-radius: 7rem;
+    border-top-right-radius: 7rem;
+    color: white;
+}
+
+#h h1 {
+    margin-left: -1rem;
+    font-size: xx-large;
+}
+
+#contact span {
+    color: rgb(106, 88, 211);
+    ;
+}
+
+#l {
+    margin-top: 5rem;
+    display: flex;
+}
+
+#n {
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+#bl {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    
+}
+#bl i{
+    color: white;
+}
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    border-top-right-radius: 18rem;
+    border-top-left-radius: 25rem;
+    background: url(pics/banner-bg.jpg);
+}
