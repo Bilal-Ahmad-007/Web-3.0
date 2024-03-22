@@ -79,7 +79,7 @@
 //    clearInterval(interval)
 // }, 10000);
 
-//////////////////////////////////// chapter1/////////////////////////////////////////////
+//////////////////////////////////////////// chapter1/////////////////////////////////////////////
 
 // var let const
 
@@ -425,7 +425,7 @@
 // console.log(sumOneAvg(32, 5));
 
 
-//////////////////////////////////////////////exersise///////////////
+//////////////////////////////////////////////ch#3 exersise///////////////////////////////////////
 ////////////////////////q1///////////////
 // const marks={
 //   bilal: 45,
@@ -498,7 +498,7 @@
   // console.log(mean(4,5,6,7,8))
 
 
-  //////////////////////////////////string//////////////////////
+  //////////////////////////////////ch4 string///////////////////////////////////////////////
 
 
 
@@ -536,7 +536,9 @@
   
 
 
-  //////////////////////////methods of string exercise/////////////
+  ////////////////////////// ch4 methods of string exercise//////////////////////////////////////////////
+
+
 //////////////////////////////////////////q1
   // console.log("bil\"".length)
 
@@ -584,7 +586,7 @@ for(let i=0; i<=arr.length; i++){
   console.log(arr[i])
 }
 */
-///////////////////////////array method/////////////////////
+///////////////////////////ch5 array method///////////////////////////////////////////////////////////
 
 // let arr=[11,2,9,4,55,6,77]
 
@@ -624,7 +626,7 @@ for(let i=0; i<=arr.length; i++){
 
 ///////////////////////////////////////loop with array.//////////////////
 
-let arr=[1,2,3,4];
+// let arr=[1,2,3,4];
 // for(let i=0;i<arr.length;i++){
   
 //   console.log( arr[i])
@@ -647,4 +649,235 @@ let arr=[1,2,3,4];
 // for(let i in arr ){
 //   console.log(arr[i])
 // }
+
+///////////////////////////////map filtr reduce///////////////////////////
+
+
+// let arr=[1,2,3,4,5,6]
+
+// let ar2= arr.map((value,index,array)=>{
+//         console.log(value,index, array)
+//         return (value+2)
+
+// })
+// console.log(ar2)
+
+
+// let arr=[1,2,3,4,5,6]
+
+// let ar2= arr.filter((value,index,array)=>{
+//         console.log(value,index, array)
+//         return (value>2)
+
+// })
+// console.log(ar2)
+
+// let arr=[1,2,3,4,5,6]
+
+// let ar2= arr.reduce((first,second)=>{
+//         // console.log(first,second)
+//         return (first+second)
+
+// })
+// console.log(ar2)
+
+////////////////////////////////////////////////ch5 exercise array//////////////////////////////////////////////
+
+
+/////////////////////q1
+
+// let arr = [1,"hello", null,23]
+
+// let input= prompt("input your arry item")
+//   input= Number.parseInt(input)
+// console.log( arr.push(input))
+// console.log( arr)
+
+
+///////////////////////////q2
+
+// let arr = [1,"hello", null,23]
+// let input;
+// do{
+//    input= prompt("input your arry item")
+//     input= Number.parseInt(input)
+
+//     arr.push(input)
+  
+    
+    
+
+//   }while(input!=0)  
+//   console.log( arr)
+
+
+///////////////////////////q3
+
+
+// let arr= [1,2,3,4,10]
+
+// let arr2=arr.filter((val,i,arr)=>val%10===0)
+// console.log(arr2)
+
+// ///////////////////////////q4
+// let arr3=arr2.map((val)=>val*val)
+// console.log(arr3)
+
+// ///////////////////////////q5
+
+
+// let arr4=arr.reduce((acc,val)=> acc*val,1)
+// console.log(arr4)
+
+
+///////////////////////////////////////////////// random number guess game ///////////////////////////
+
+
+// let x= Math.floor( Math.random()*100);
+// console.log(x)
+// let before=0
+// let score=100-before;
+// for(let i=0; i<100;i++){
+
+//   let guess= prompt("Guess  a number ")
+//   guess=Number.parseInt(guess)
+
+//     if(guess===x){
+//       alert(`CONGRATULATION you guess  a number with score ${score}`)
+//       break
+//     }else if(guess<x){
+//       alert("try again guess number is too low")
+//     }
+//     else if(guess>x){
+//       alert("try again guess number is too high")
+//     }
+
+//     before+=i
+// }
+  
+
+   //////////////////////////////exercise ch6////////////////////////////////
+
+  //  /////////////////////////q1///////////////////
+
+  //  let age = prompt("enter your age :")
+  //  age= Number.parseInt(age)
+
+  //  if (age>=18) {
+  //   alert("you can drive")
+    
+  //  }else{
+  //   alert("your age is less then 18 you can't  drive")
+  //  }
+
+
+   /////////////////////////q2///////////////////
+   
+   //  let age = prompt("Enter your age:");
+   //  age = Number.parseInt(age);
+   
+   //  if (confirm("Do you want to see the prompt?")) {
+     //    if (age >= 18) {
+  //      alert("You can drive.");
+  //    } else {
+  //      alert("Your age is less than 18. You can't drive.");
+  //    }
+  //  }
+   
+  
+  
+  // let again=true;
+  // while(again){   
+    //   let age = prompt("Enter your age:");
+    //   age = Number.parseInt(age);
+    
+    //    if (age >= 18) {
+      //      alert("You can drive.");
+      //    }
+      //    else {
+  //      alert("Your age is less than 18. You can't drive.");
+  //    }
+
+  //   again=confirm("Do you want to see the prompt again?");
+  // }
+  
+
+
+  // /////////////////////////q3///////////////////
+  // let again=true;
+  // while(again){   
+  //   let age = prompt("Enter your age:");
+  //   age = Number.parseInt(age);
+    
+  //    if (age >= 18) {
+  //      alert("You can drive.");
+  //    }else if(age<0){
+  //     console.error("Your value is negtive so please give the right age")
+
+  //    }
+  //    else {
+  //      alert("Your age is less than 18. You can't drive.");
+  //    }
+  //   again=confirm("Do you want to see the prompt again?");
+  // }
+  
+  
+  // /////////////////////////q4///////////////////
+  
+
+  // let num = prompt("enter a number ")
+  // num=Number.parseInt(num)
+  // if (num>4){
+  //   location.href="http://google.com"
+  // }
+  
+  
+  /////////////////////////q5///////////////////
+  
+
+  // let color = prompt("enter a color ")
+
+  // document.body.style.background=`${color}`
+  
+
+////////////////////////////////////////snack water gun game genrting///////
+
+
+
+// let win=0;
+// let lose=0;
+// let loop=0;;
+// let tryAgain=true;
+// while(tryAgain){
+
+//   let randomNumber = Math.floor(Math.random() * 3);
+//   let randomCharCode = ["s","w","g"];
+//   let randomCharacter = randomCharCode[randomNumber];
+//   console.log(randomCharacter)
+// let inp = prompt("Enter your word for snack enter 's' for water enter 'w' for gun enter 'g' : ")
+
+// if(inp!=randomCharacter){
+
+//   if( inp==='s' && randomCharacter==='w' || inp==='w' && randomCharacter==='g'||inp==='g' && randomCharacter==='s')
+//   {
+//     alert("CONGRATULATION you won ")
+//     win+=1
+
+
+//   }else{
+//     alert (" you lose try again")
+//     lose+=1
+//   }
+// }else{
+//   alert("this is tie")
+//   lose+=0.5;
+//   win+=0.5;
+// }
+// tryAgain=confirm("IF You want to stay then slect  confirm")
+// loop+=1
+// }
+// console.log(`you tries ${loop} times and you win ${win} times and you lose ${lose} and your score is ${win-lose} out of ${loop}`)
+
+
+
 
