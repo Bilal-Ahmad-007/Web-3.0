@@ -942,3 +942,70 @@ for(let i=0; i<=arr.length; i++){
 
 
 
+/////////////////////////////////////set timeout, clear and set intervel///////////////
+
+
+// setTimeout(()=>console.log("helo"),2000)
+
+// let a=setInterval(() => {
+//   console.log("i am running")
+// }, 2000);
+
+// setTimeout(()=>{clearInterval(a)},10000)
+
+/////////////////////////////////////////////////events in js practice //////////////////////////////
+// let x=function(){
+//   window.location="https://google.com"
+// }
+// document.getElementById("google").addEventListener("click",x)
+// document.getElementById("fb").addEventListener("click",function(){
+//   window.location="https://www.facebook.com"
+// })
+// document.getElementById("twitter").addEventListener("click",function(){
+//   window.location="https://www.twitter.com"
+// })
+
+
+
+// let bulb=()=>{
+  
+//   document.querySelector("#main").innerHTML=` <img id="bulb" src="https://toppng.com/uploads/preview/light-bulb-on-off-png-11553940319kdxsp3rf0i.png" alt="bulb">`
+// }
+
+
+// setInterval(() => {
+//   document.querySelector("#bulb").classList.toggle("bulb")
+// }, 300);
+
+
+
+
+
+//////////////////////////////////////////////////clock///////////////////
+
+
+// setInterval(() => {
+  
+  
+//   let date=new Date();
+//   let h=date.getHours();
+//   let m=date.getMinutes()
+//   let s=date.getSeconds()
+  // let ms=date.getMilliseconds()
+  // console.log(h,m,s,ms)
+  
+  
+//   let hour= document.getElementById("hours")
+//   hour.innerHTML=h;
+  
+//   let min= document.getElementById("mins")
+//   min.innerHTML=m;
+//   let sec= document.getElementById("sec")
+//   sec.innerHTML=s;
+//   // let msec= document.getElementById("msec")
+//   // msec.innerHTML=ms;
+// }, 1000);
+
+
+
+
