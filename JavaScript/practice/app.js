@@ -981,7 +981,7 @@ for(let i=0; i<=arr.length; i++){
 
 
 
-//////////////////////////////////////////////////clock///////////////////
+//////////////////////////////////////////////////  clock  ///////////////////////////////////////////////
 
 
 // setInterval(() => {
@@ -1006,6 +1006,38 @@ for(let i=0; i<=arr.length; i++){
 //   // msec.innerHTML=ms;
 // }, 1000);
 
+////////////////////////////////////////////prmises   (new Promise) & promise chaing .then( alert).then(alert) & promise handdler( p1.then() p1.then()) & promises api Promis.all(),promise.allSetteled(),promie.run(),promise.race(), ////////////////////////////////////  async await  ////////////////////////////////////////////////////////// 
 
+
+//  async function bilal(){
+//   let p1=new Promise((resolve,reject)=>{
+      
+
+//       setTimeout(() => {
+        
+//         resolve("21 deg")
+//       }, 2000);  
+//   })
+//   let p2=new Promise((resolve,reject)=>{
+//     setTimeout(() => {
+      
+//       resolve("21 deg")
+//     }, 1000);  
+    
+//   })
+//   console.log("fetching p1")
+//   let val1=await p1;
+//   console.log("fetched p1")
+//   console.log("fetching p2")
+//   let val2=await p2;
+//   console.log("fetched p2")
+//   return [val1,val2] 
+  
+//  }
+
+//  let a=bilal();
+//  a.then((value)=>{
+//   console.log(value)
+//  })
 
 
