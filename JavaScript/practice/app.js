@@ -197,8 +197,6 @@
 // break
 // }
 
-
-
 // let k1 = "hello world";
 // let k2 = "Bilal";
 // let x = " <p> 'hello world' </p> <button> Bilal</button>";
@@ -216,7 +214,6 @@
 //     console.log(k2value);
 //   }
 // }
-
 
 // let x = '<button onclick="getMail()">button</button> <p>"hello   word how r you"</p><p>"hellllllllll"</p>';
 
@@ -236,7 +233,6 @@
 //         buttonValue += x[i];
 //     }
 // }
-
 
 // console.log(buttonValue); // Output the extracted value
 
@@ -424,7 +420,6 @@
 // }
 // console.log(sumOneAvg(32, 5));
 
-
 //////////////////////////////////////////////ch#3 exersise///////////////////////////////////////
 ////////////////////////q1///////////////
 // const marks={
@@ -436,17 +431,15 @@
 
 // }
 
-
 // for(let i=0;i<Object.keys(marks).length;i++){
 //   // console.log("marks of "+ Object.keys(marks)[i]+"is "+" "+marks[Object.keys(marks)[i]])
 //   console.log(`marks of ${ Object.keys(marks)[i]} is ${ marks[Object.keys(marks)[i]]}`)
 // }
 
-
 ////////////////////////q2///////////////
 
 // const marks={
-  //   bilal: 45,
+//   bilal: 45,
 //   asad: 34,
 //   shari:33,
 //   tariq:56,
@@ -454,12 +447,9 @@
 
 // }
 
-
 // for(let key in marks){
 //   console.log(`mark of ${key} is ${marks[key]}`)
 // }
-
-
 
 ////////////////////////q3///////////////
 
@@ -479,38 +469,31 @@
 // let cn=3;
 // let i =0;
 // while(i != cn){
-  //   i= prompt("Enter to guess")
-  
-  //   i!=cn?alert("try again"):
-  //   alert("you guess correct")
+//   i= prompt("Enter to guess")
+
+//   i!=cn?alert("try again"):
+//   alert("you guess correct")
 // }
 
+////////////////////////q4///////////////
 
+// const mean=(a,b,c,d,e)=>{
+//   return (a+b+c+d+e)/5
+// }
 
-  ////////////////////////q4///////////////
+// console.log(mean(4,5,6,7,8))
 
+//////////////////////////////////ch4 string///////////////////////////////////////////////
 
+// let x = 'bil\ral'
+// console.log(x)
 
-  // const mean=(a,b,c,d,e)=>{
-  //   return (a+b+c+d+e)/5
-  // }
+//////////////////////////methods of string/////////////
 
-  // console.log(mean(4,5,6,7,8))
+// let x= "    Bilal Ahmad"
 
-
-  //////////////////////////////////ch4 string///////////////////////////////////////////////
-
-
-
-  // let x = 'bil\ral'
-  // console.log(x)
-
-  //////////////////////////methods of string/////////////
-  
-  // let x= "    Bilal Ahmad"
-  
-  //   console.log(x.length)
-  //   console.log(x.toUpperCase())
+//   console.log(x.length)
+//   console.log(x.toUpperCase())
 //   console.log(x.toLowerCase())
 //   console.log(x[0])
 //   console.log(x[1])
@@ -525,28 +508,24 @@
 // let z= "asad"
 // console.log(x.concat("  is a friend of ",z,"ok"))
 
-
 // let name="asad";
 // // console.log( name.split("").reverse().toString())
 // let container='';
 // for(let i=name.length-1;i>=0; i--){
-  //   container+=name.charAt(i)
-  // }
-  // console.log(container)
-  
+//   container+=name.charAt(i)
+// }
+// console.log(container)
 
-
-  ////////////////////////// ch4 methods of string exercise//////////////////////////////////////////////
-
+////////////////////////// ch4 methods of string exercise//////////////////////////////////////////////
 
 //////////////////////////////////////////q1
-  // console.log("bil\"".length)
+// console.log("bil\"".length)
 
-  //////////////////////////////////////////q2
-  
-  // let sentence="bilal is going to university for study " 
-  // let word="university"
-  // console.log(`The word "${word}"${sentence.includes(word)? "is": "not"} present in the sentence   `)
+//////////////////////////////////////////q2
+
+// let sentence="bilal is going to university for study "
+// let word="university"
+// console.log(`The word "${word}"${sentence.includes(word)? "is": "not"} present in the sentence   `)
 
 // let x="Bilal"
 // console.log(x.startsWith("b"))
@@ -576,7 +555,6 @@ console.log(y.join(""))
 
 */
 
-
 /////////////////////////////Array//////////////////////////
 
 /*
@@ -590,7 +568,6 @@ for(let i=0; i<=arr.length; i++){
 
 // let arr=[11,2,9,4,55,6,77]
 
-
 // console.log(arr.toString())
 // console.log(arr.join("_"))
 // console.log(arr.pop())
@@ -603,7 +580,6 @@ for(let i=0; i<=arr.length; i++){
 // delete arr[0]
 // console.log(arr.length)
 
-
 // let arr2=[12,13,14,15]
 // let arr3=[126,135,144,153]
 // let newArr=arr.concat(arr2,arr3)
@@ -612,23 +588,18 @@ for(let i=0; i<=arr.length; i++){
 // }
 // console.log(arr.sort(compare))
 
-
 // console.log(arr.reverse())
 
 // console.log(arr.slice(0,4))
 
-
 // console.log(arr.splice(start dalete, how many dlete ,add,add,add,add))
 // console.log(arr.splice(0,4,22,1023,1023,1044))
-
-
-
 
 ///////////////////////////////////////loop with array.//////////////////
 
 // let arr=[1,2,3,4];
 // for(let i=0;i<arr.length;i++){
-  
+
 //   console.log( arr[i])
 // }
 
@@ -640,8 +611,6 @@ for(let i=0; i<=arr.length; i++){
 // console.log(narr)
 // console.log(name.split(''))
 
-
-
 // for(let i of arr ){
 //   console.log(i)
 // }
@@ -652,7 +621,6 @@ for(let i=0; i<=arr.length; i++){
 
 ///////////////////////////////map filtr reduce///////////////////////////
 
-
 // let arr=[1,2,3,4,5,6]
 
 // let ar2= arr.map((value,index,array)=>{
@@ -661,7 +629,6 @@ for(let i=0; i<=arr.length; i++){
 
 // })
 // console.log(ar2)
-
 
 // let arr=[1,2,3,4,5,6]
 
@@ -683,7 +650,6 @@ for(let i=0; i<=arr.length; i++){
 
 ////////////////////////////////////////////////ch5 exercise array//////////////////////////////////////////////
 
-
 /////////////////////q1
 
 // let arr = [1,"hello", null,23]
@@ -692,7 +658,6 @@ for(let i=0; i<=arr.length; i++){
 //   input= Number.parseInt(input)
 // console.log( arr.push(input))
 // console.log( arr)
-
 
 ///////////////////////////q2
 
@@ -703,16 +668,11 @@ for(let i=0; i<=arr.length; i++){
 //     input= Number.parseInt(input)
 
 //     arr.push(input)
-  
-    
-    
 
-//   }while(input!=0)  
+//   }while(input!=0)
 //   console.log( arr)
 
-
 ///////////////////////////q3
-
 
 // let arr= [1,2,3,4,10]
 
@@ -725,13 +685,10 @@ for(let i=0; i<=arr.length; i++){
 
 // ///////////////////////////q5
 
-
 // let arr4=arr.reduce((acc,val)=> acc*val,1)
 // console.log(arr4)
 
-
 ///////////////////////////////////////////////// random number guess game ///////////////////////////
-
 
 // let x= Math.floor( Math.random()*100);
 // console.log(x)
@@ -754,95 +711,82 @@ for(let i=0; i<=arr.length; i++){
 
 //     before+=i
 // }
-  
 
-   //////////////////////////////exercise ch6////////////////////////////////
+//////////////////////////////exercise ch6////////////////////////////////
 
-  //  /////////////////////////q1///////////////////
+//  /////////////////////////q1///////////////////
 
-  //  let age = prompt("enter your age :")
-  //  age= Number.parseInt(age)
+//  let age = prompt("enter your age :")
+//  age= Number.parseInt(age)
 
-  //  if (age>=18) {
-  //   alert("you can drive")
-    
-  //  }else{
-  //   alert("your age is less then 18 you can't  drive")
-  //  }
+//  if (age>=18) {
+//   alert("you can drive")
 
+//  }else{
+//   alert("your age is less then 18 you can't  drive")
+//  }
 
-   /////////////////////////q2///////////////////
-   
-   //  let age = prompt("Enter your age:");
-   //  age = Number.parseInt(age);
-   
-   //  if (confirm("Do you want to see the prompt?")) {
-     //    if (age >= 18) {
-  //      alert("You can drive.");
-  //    } else {
-  //      alert("Your age is less than 18. You can't drive.");
-  //    }
-  //  }
-   
-  
-  
-  // let again=true;
-  // while(again){   
-    //   let age = prompt("Enter your age:");
-    //   age = Number.parseInt(age);
-    
-    //    if (age >= 18) {
-      //      alert("You can drive.");
-      //    }
-      //    else {
-  //      alert("Your age is less than 18. You can't drive.");
-  //    }
+/////////////////////////q2///////////////////
 
-  //   again=confirm("Do you want to see the prompt again?");
-  // }
-  
+//  let age = prompt("Enter your age:");
+//  age = Number.parseInt(age);
 
+//  if (confirm("Do you want to see the prompt?")) {
+//    if (age >= 18) {
+//      alert("You can drive.");
+//    } else {
+//      alert("Your age is less than 18. You can't drive.");
+//    }
+//  }
 
-  // /////////////////////////q3///////////////////
-  // let again=true;
-  // while(again){   
-  //   let age = prompt("Enter your age:");
-  //   age = Number.parseInt(age);
-    
-  //    if (age >= 18) {
-  //      alert("You can drive.");
-  //    }else if(age<0){
-  //     console.error("Your value is negtive so please give the right age")
+// let again=true;
+// while(again){
+//   let age = prompt("Enter your age:");
+//   age = Number.parseInt(age);
 
-  //    }
-  //    else {
-  //      alert("Your age is less than 18. You can't drive.");
-  //    }
-  //   again=confirm("Do you want to see the prompt again?");
-  // }
-  
-  
-  // /////////////////////////q4///////////////////
-  
+//    if (age >= 18) {
+//      alert("You can drive.");
+//    }
+//    else {
+//      alert("Your age is less than 18. You can't drive.");
+//    }
 
-  // let num = prompt("enter a number ")
-  // num=Number.parseInt(num)
-  // if (num>4){
-  //   location.href="http://google.com"
-  // }
-  
-  
-  /////////////////////////q5///////////////////
-  
+//   again=confirm("Do you want to see the prompt again?");
+// }
 
-  // let color = prompt("enter a color ")
+// /////////////////////////q3///////////////////
+// let again=true;
+// while(again){
+//   let age = prompt("Enter your age:");
+//   age = Number.parseInt(age);
 
-  // document.body.style.background=`${color}`
-  
+//    if (age >= 18) {
+//      alert("You can drive.");
+//    }else if(age<0){
+//     console.error("Your value is negtive so please give the right age")
+
+//    }
+//    else {
+//      alert("Your age is less than 18. You can't drive.");
+//    }
+//   again=confirm("Do you want to see the prompt again?");
+// }
+
+// /////////////////////////q4///////////////////
+
+// let num = prompt("enter a number ")
+// num=Number.parseInt(num)
+// if (num>4){
+//   location.href="http://google.com"
+// }
+
+/////////////////////////q5///////////////////
+
+// let color = prompt("enter a color ")
+
+// document.body.style.background=`${color}`
 
 ////////////////////////////////////////snack water gun game genrting///////
-
-
 
 // let win=0;
 // let lose=0;
@@ -863,7 +807,6 @@ for(let i=0; i<=arr.length; i++){
 //     alert("CONGRATULATION you won ")
 //     win+=1
 
-
 //   }else{
 //     alert (" you lose try again")
 //     lose+=1
@@ -878,10 +821,7 @@ for(let i=0; i<=arr.length; i++){
 // }
 // console.log(`you tries ${loop} times and you win ${win} times and you lose ${lose} and your score is ${win-lose} out of ${loop}`)
 
-
-
-   ///////////////////////////////////dom manuplation ///////////////////////
-
+///////////////////////////////////dom manuplation ///////////////////////
 
 // console.log(document.body.firstChild)
 // console.log(document.body.lastChild)
@@ -889,7 +829,7 @@ for(let i=0; i<=arr.length; i++){
 // console.log(document.body.childNodes[1])
 // let arr=Array.from(document.body.childNodes)  ///convert to rray from nodes list
 // let arr=Array.from(document.body.firstElementChild.firstElementChild)
-// console.log(arr)  
+// console.log(arr)
 
 ///////////////////////////////// dom collection
 
@@ -898,16 +838,12 @@ for(let i=0; i<=arr.length; i++){
 //  document.querySelectorAll(.cards-title) //it get all element by css selector
 //  document.querySelector(.cards-title) //it get first element by css selector
 
-
 // document.getElementsByTagName()  //it get  element by html tags
 // document.getElementsByName()   //it get all element by name
 
-
 // document.getElementById("id1").matches(".box")
 
-
 ////////////////////////////////////////////////////ch 7 practice////////////////////////
-
 
 ///////////////////////////////////////////q1/////////////////////////
 
@@ -923,27 +859,20 @@ for(let i=0; i<=arr.length; i++){
 // let ele1=document.body.getElementsByTagName("li")
 // console.log(ele1)
 // Array.from(ele1).forEach((E)=>{
-//   E.style.backgroundColor="cyan" 
+//   E.style.backgroundColor="cyan"
 // })
 
 //////////////////////////////////////////////////////tel me jok/////////////////
 
-
-  
 // let jokes=[` What’s blue and smells like red paint? Blue paint.`,`Where do vampires keep their money? A blood bank.`,` How do porcupines kiss? Carefully!`,`Why are fish so intelligent? Because they live in schools!`,` What kind of music do bubbles hate? Pop.`,` What do you call a dog magician? A labracadabrador.`,` What did the triangle say to the circle? You’re pointless!`,` What kind of fish loves going to war? A swordfish.`,` Why can’t your hand be 12 inches long? Because then it’d be a foot.`,` Why couldn't the pony sing a lullaby? She was a little horse.`,` What’s a parent’s favorite Christmas carol? Silent Night.`,` Where do woodland birds invest their money? The stork-market.`,` What do you call a bear with no teeth? A gummy bear.`,` What do you call a fake noodle? An impasta.`,` Can February March? No, but April May!`]
-
-
 
 // let randomJoke=()=>{
 //   let random=Math.floor(Math.random()*(jokes.length-1))
 //   document.getElementById("random").innerHTML=`${jokes[random]}`
-  
+
 // }
 
-
-
 /////////////////////////////////////set timeout, clear and set intervel///////////////
-
 
 // setTimeout(()=>console.log("helo"),2000)
 
@@ -965,39 +894,29 @@ for(let i=0; i<=arr.length; i++){
 //   window.location="https://www.twitter.com"
 // })
 
-
-
 // let bulb=()=>{
-  
+
 //   document.querySelector("#main").innerHTML=` <img id="bulb" src="https://toppng.com/uploads/preview/light-bulb-on-off-png-11553940319kdxsp3rf0i.png" alt="bulb">`
 // }
-
 
 // setInterval(() => {
 //   document.querySelector("#bulb").classList.toggle("bulb")
 // }, 300);
 
-
-
-
-
 //////////////////////////////////////////////////  clock  ///////////////////////////////////////////////
 
-
 // setInterval(() => {
-  
-  
+
 //   let date=new Date();
 //   let h=date.getHours();
 //   let m=date.getMinutes()
 //   let s=date.getSeconds()
-  // let ms=date.getMilliseconds()
-  // console.log(h,m,s,ms)
-  
-  
+// let ms=date.getMilliseconds()
+// console.log(h,m,s,ms)
+
 //   let hour= document.getElementById("hours")
 //   hour.innerHTML=h;
-  
+
 //   let min= document.getElementById("mins")
 //   min.innerHTML=m;
 //   let sec= document.getElementById("sec")
@@ -1006,24 +925,22 @@ for(let i=0; i<=arr.length; i++){
 //   // msec.innerHTML=ms;
 // }, 1000);
 
-////////////////////////////////////////////prmises   (new Promise) & promise chaing .then( alert).then(alert) & promise handdler( p1.then() p1.then()) & promises api Promis.all(),promise.allSetteled(),promie.run(),promise.race(), ////////////////////////////////////  async await  ////////////////////////////////////////////////////////// 
-
+////////////////////////////////////////////prmises   (new Promise) & promise chaing .then( alert).then(alert) & promise handdler( p1.then() p1.then()) & promises api Promis.all(),promise.allSetteled(),promie.run(),promise.race(), ////////////////////////////////////  async await  //////////////////////////////////////////////////////////
 
 //  async function bilal(){
 //   let p1=new Promise((resolve,reject)=>{
-      
 
 //       setTimeout(() => {
-        
+
 //         resolve("21 deg")
-//       }, 2000);  
+//       }, 2000);
 //   })
 //   let p2=new Promise((resolve,reject)=>{
 //     setTimeout(() => {
-      
+
 //       resolve("21 deg")
-//     }, 1000);  
-    
+//     }, 1000);
+
 //   })
 //   console.log("fetching p1")
 //   let val1=await p1;
@@ -1031,13 +948,64 @@ for(let i=0; i<=arr.length; i++){
 //   console.log("fetching p2")
 //   let val2=await p2;
 //   console.log("fetched p2")
-//   return [val1,val2] 
-  
+//   return [val1,val2]
+
 //  }
 
 //  let a=bilal();
 //  a.then((value)=>{
 //   console.log(value)
 //  })
+///////////////////////////////////////////////////////// try catch ////////////////////////////////
 
 
+// setTimeout(() => {
+//   console.log("what are tyou doing ");
+// }, 1000);
+
+
+
+
+// try {
+  //   console.log(object)
+  
+  // } catch (error) {
+//   console.log(error)
+// }
+
+// setTimeout(() => {
+//   console.log("what is thiss doing ");
+// }, 2000);
+
+
+
+// setTimeout(() => {
+  //   console.log("what are you ");
+// }, 3000);
+
+
+
+//////////////////////////////////////////// err obj && custom err && finaly cluse ////////////////////////////////
+
+
+// try {
+//   console.log(bilal)
+//   throw new ReferenceError("bilal is not define")
+// }
+
+// catch (error) {
+//   // console.log(error.message)
+//   // console.log(error.name)
+//   // console.log(error.stack)
+//   // console.log(object)
+// }finally{
+//  console.log("always run")
+// }
+
+///////////////////////////////////////////////////////////////ch 10 #prctice ////////////////////////////////////////
+
+
+
+// let api=fetch( "https://jsonplaceholder.typicode.com/todos").then((res)=>res.json()).then((val)=>{
+//   console.log(val)
+// })
