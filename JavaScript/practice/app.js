@@ -1009,3 +1009,49 @@ for(let i=0; i<=arr.length; i++){
 // let api=fetch( "https://jsonplaceholder.typicode.com/todos").then((res)=>res.json()).then((val)=>{
 //   console.log(val)
 // })
+
+
+
+// class Vahical{
+//   constructor(name,model){
+//     this._name=name;
+//     this._model=model;
+//   }
+// run(){
+//   console.log(`${this._name} of model ${this.model} is  running`)
+// }
+// stop(){
+//   console.log(`${this._name} of model ${this.model} is  stoped`)
+  
+// }
+
+// }
+
+// class car extends Vahical{
+//   overspeed(){
+//     console.log(`${this._name} of model ${this.model} is  over speading`)
+//   }
+//   get name(){
+//     this._name=
+//   }
+// }
+
+
+// let mastang= new car("mastng","v12");
+// let frrari= new car("frrari","s122");
+
+// frrari.run()
+// mastang.overspeed()
+// mastang.stop()
+
+
+
+// let createHelloWord=()=>{
+//   let x=()=>{
+//     console.log("hello word")
+//   }
+//   return x()
+
+  
+// } 
+// createHelloWord()

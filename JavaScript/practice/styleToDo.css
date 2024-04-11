@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#inputDive{
+    margin-top: 50px;
+    display: flex;
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#title{
+    width: 310px;
+    height: 50px;
+    border-radius: 50px;
+    padding-left:30px ;
+}
+#text{
+    width: 310px;
+    border-radius: 10px;
+}
+.btn{
+    width: 130px;
+}
+
+#todos{
+    display: flex;
+    flex-wrap: wrap;
+    /* background: #000; */
+    width: 100%;
+    height: 30vh;
+}
+
+.card{
+    width: 18rem;
+    text-align: center;
+    /* background-color: #00000033 !important; */
+    color: white;
+
+}
+#updateButton{
+    display: none;
+}
